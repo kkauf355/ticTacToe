@@ -14,10 +14,6 @@ main {
     /* justify-content: center; */
 }
 
-footer {
-    background-color: blue;
-}
-
 .Gameboard {
     display: grid;
     justify-content: center;
@@ -82,5 +78,5 @@ footer {
 
 #PlayAgain:hover {
     border-radius: 0px;
-    background-color: #ffacac;
+    background-color: rgb(255,211,114);
 }
