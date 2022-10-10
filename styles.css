@@ -18,7 +18,7 @@ main {
     display: grid;
     justify-content: center;
     width: 150%;
-    height: 80%;
+    height: 60%;
     grid-template-columns: repeat(3,75px);
     grid-template-rows: repeat(3,75px);
     background-color: #D58BDD;
