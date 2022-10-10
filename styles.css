@@ -17,7 +17,7 @@ main {
 .Gameboard {
     display: grid;
     justify-content: center;
-    width: 80%;
+    width: 150%;
     height: 80%;
     grid-template-columns: repeat(3,75px);
     grid-template-rows: repeat(3,75px);
