@@ -1,0 +1,86 @@
+body {
+    background-color: #905E96;
+    font-family: 'Fredoka One';
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+footer {
+    background-color: blue;
+}
+
+.Gameboard {
+    display: grid;
+    justify-content: center;
+    width: 80%;
+    height: 80%;
+    grid-template-columns: repeat(3,75px);
+    grid-template-rows: repeat(3,75px);
+    background-color: #D58BDD;
+}
+
+.GameSquare {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid #905E96;
+    border-right: 3px solid #905E96;
+    background-color: rgb(255,211,114);
+    font-size: 2em;
+}
+    
+.RightRow {
+    border-right: none;
+}
+
+.BottomRow {
+    border-bottom: none;
+}
+
+.GameSquare:hover {
+    background-color: rgb(255, 228, 169);
+}
+
+.PlayerBar {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    padding-bottom: 2px;
+}
+
+.MyTurn {
+    background-color: #D58BDD;
+    padding: 5px;
+}
+
+.HideResults {
+    display: none;
+}
+
+.PostGameOptions {
+    display: flex;
+    justify-content: center;
+}
+
+#PlayAgain {
+    padding: 10px 30px;
+    border-radius: 7px;
+    border-bottom-left-radius: 0px;
+    background-color: #D58BDD;
+    transition: all 0.3s;
+    /* width: 0px; */
+}
+
+#PlayAgain:hover {
+    border-radius: 0px;
+    background-color: #ffacac;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tic Tac Toe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>
+            Tic Tac Toe
+        </h1>
+    </header>
+    <main>  
+        <div class="PlayerBar">
+            <span class="Players MyTurn" id="P1">Player 1: x</span>
+            <span class="Players" id="P2">Player 2: o</span>
+        </div>
+        <div class="Gameboard">
+            <div class="GameSquare" id="Square0"></div>
+            <div class="GameSquare" id="Square1"></div>
+            <div class="GameSquare RightRow" id="Square2"></div>
+            <div class="GameSquare" id="Square3"></div>
+            <div class="GameSquare" id="Square4"></div>
+            <div class="GameSquare RightRow" id="Square5"></div>
+            <div class="GameSquare BottomRow" id="Square6"></div>
+            <div class="GameSquare BottomRow" id="Square7"></div>
+            <div class="GameSquare BottomRow RightRow" id="Square8"></div>
+        </div>
+        <div>
+            <span class="RoundText">Round: </span>
+            <span class="RoundText" id="RoundNum">1</span>
+        </div>
+        <div class="Results HideResults">
+            <span id="Winner">Player</span>
+            <span> Wins! Congratulations</span>
+        
+            <div class="PostGameOptions">
+                <p id="PlayAgain">Play Again</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        
+    </footer>
+    <script type="text/javascript" src="javascript.js"></script>
+</body>
+</html>
